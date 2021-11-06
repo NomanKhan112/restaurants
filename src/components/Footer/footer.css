@@ -1,0 +1,62 @@
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30vh;
+  background-color: rgb(236, 32, 68);
+}
+.footerContant {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+}
+.ShefTitle h2 {
+  font-size: 55px;
+  color: white;
+  margin-bottom: 5px;
+}
+.ShefTitle h4 {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0ch;
+}
+.footerHead {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.LearnLink {
+  height: 110px;
+}
+.LearnLink li {
+  list-style: none;
+}
+.LearnLink li a {
+  font-size: 15px;
+  color: white;
+}
+.LearnLink li a:hover {
+  color: rgb(24, 24, 204);
+}
+.SecurePayment img {
+  height: 35px;
+}
+.SecurePayment img {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.footerBottem {
+  background-color: rgb(56, 56, 56);
+}
+.ftrContant {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  align-items: center;
+}
+.ftrContant h3 {
+  color: white;
+}

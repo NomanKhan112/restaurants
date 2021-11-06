@@ -1,0 +1,56 @@
+.NavContainer {
+  background-color: white !important;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  height: 10vh;
+}
+.navbarItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white !important;
+}
+.items {
+  margin-left: 2rem;
+}
+.items button {
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 5px 20px;
+  border: 1px solid #62686a;
+  outline: none;
+  font-weight: 500;
+  color: #62686a;
+  background: white;
+  font-weight: 700;
+}
+.items a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #62686a;
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+.items a:hover {
+  color: black !important;
+}
+.items button:hover {
+  color: black !important;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.Nav-img {
+  vertical-align: middle;
+  border-style: none;
+  width: 25px;
+}
+.logo h3 {
+  color: rgb(236, 32, 68);
+  font-weight: 700;
+  font-size: 24px;
+}

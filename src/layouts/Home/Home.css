@@ -1,0 +1,717 @@
+.HeaderContainer {
+  height: 90vh;
+}
+.HeaderContainer .container {
+  background-image: url(../../assects/header/homepage_hero_d.c64090e2.jpg);
+  width: 100%;
+  height: 100vh !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat !important;
+}
+.Heading h1 {
+  font-size: 89px;
+  color: white;
+  line-height: 90px;
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif !important;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.contant {
+  margin-left: 70px;
+  height: 78vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.para h3 {
+  font-size: 37px;
+  color: white;
+  line-height: 40px;
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif !important;
+}
+
+.btn input {
+  width: 225px;
+  height: 5vh;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  font-weight: 500;
+}
+.btn button {
+  color: white;
+  background: rgb(218, 58, 74);
+  font-size: 17px;
+  border: none;
+  border-radius: 20px;
+  width: 120px;
+  height: 42px;
+  margin-top: 2rem;
+  font-weight: 500;
+  border: 2px solid white;
+  transition: all 1s;
+  margin-right: 2%;
+}
+.btn button:hover {
+  border-radius: 10px;
+  cursor: pointer;
+  transform: scale(1.1);
+  transform: rotate(5deg);
+}
+.paraSign p {
+  color: white;
+  font-size: 18px;
+  margin-top: 1rem;
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif !important;
+}
+.paraSpan {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif !important;
+}
+
+/* **********************************************************************************************88 */
+
+.tryShefContainer {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.title {
+  margin-left: 5.4rem;
+  margin-bottom: 4rem;
+}
+.title h2 {
+  font-size: 37px;
+  line-height: 34px;
+  color: rgb(236, 32, 68);
+  font-weight: bold;
+}
+.cardDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cardDiv .card {
+  width: 20%;
+}
+.card h3 {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(56, 56, 56);
+}
+.card p {
+  color: rgb(55, 55, 55);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.btnMeals {
+  margin-left: 5.4rem;
+  margin-top: 3rem;
+}
+.btnMeals button {
+  width: 193px;
+  height: 50px;
+  background-color: rgb(236, 32, 68);
+  border: none;
+  border-radius: 26.5px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+/* **********************************************************************************************88 */
+
+.Shef-works {
+  height: 420px;
+  margin-top: 9rem;
+}
+.Shef-works h2 {
+  text-align: center;
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-weight: 700;
+  color: rgb(56, 56, 56);
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.featured-dishes-heading {
+  font-weight: 700;
+  color: rgb(236, 32, 68);
+  font-size: 40px;
+  line-height: 48px;
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+.dishes {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.dumplings {
+  background: url(../../assects/Dishes/1.jpg);
+  height: 780px;
+  width: 588px;
+  transition: all 1s;
+}
+.dumplings:hover {
+  background: #fec531 !important;
+  transform: scale(1.1, 1.1);
+}
+.dumplings-heading {
+  font-weight: 700;
+  color: #373737;
+  font-size: 43px;
+  line-height: 48px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+.dumplings-contant {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+  opacity: 0%;
+}
+.dumplings:hover .dumplings-contant {
+  opacity: 100%;
+}
+
+.dumplings-zip p {
+  color: #373737;
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 14px;
+  margin-bottom: 15px;
+}
+.search {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 26.5px;
+  width: 95%;
+  max-width: 400px;
+  background-color: rgb(254, 197, 49);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-around;
+  color: rgb(255, 255, 255);
+  height: 50px;
+}
+.zip-btn {
+  height: 50px;
+  background: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+}
+.zip-btn:hover {
+  cursor: pointer;
+}
+.zip-input {
+  height: 48px;
+  border: none;
+  outline: none;
+  width: 250px;
+  background-color: rgb(254, 197, 49);
+}
+.zip-input::placeholder {
+  color: white;
+  font-size: large;
+  font-weight: 400;
+}
+.loction-logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40px;
+}
+.dumplings-btn {
+  width: 261px;
+  height: 50px;
+  background-color: rgb(236, 32, 68);
+  border: none;
+  border-radius: 26.5px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 50px;
+  margin-top: 4rem;
+}
+
+.chicken {
+  background: url(../../assects/Dishes/2.PNG) !important;
+  height: 591px !important;
+  width: 857px !important;
+  margin-top: 9rem !important;
+}
+
+.paneer {
+  background: url(../../assects/Dishes/3.PNG) !important;
+  width: 500px !important;
+  height: 300px !important;
+}
+
+.paneer-details p {
+  color: rgb(236, 32, 68);
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  width: 92px;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}
+
+.paneer-details h2 {
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-weight: 700;
+  color: rgb(56, 56, 56);
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.paneer-details h3 {
+  color: rgb(55, 55, 55);
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.ant-carousel .slick-dots li.slick-active button {
+  background: black !important;
+}
+.ant-carousel .slick-dots li button {
+  border-radius: 100%;
+  width: 10px !important;
+  height: 10px !important;
+  background: unset !important;
+  border: 1px solid black;
+}
+
+.shefs {
+  margin-top: 5rem;
+}
+
+.shef-dish-1 {
+  background: url(../../assects/Shefs/1-1.jpg);
+  width: 52%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.shef-dish-2 {
+  background: url(../../assects/Shefs/2-1.jpg);
+  width: 52%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.shef-dish-3 {
+  background: url(../../assects/Shefs/3-1.jpg);
+  width: 52%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-contant {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.meet-shef {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.meet-shef h2 {
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-weight: 700;
+  color: rgb(236, 32, 68);
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.shef-name {
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-weight: 700;
+  color: rgb(56, 56, 56);
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 0px;
+  margin-top: 3rem;
+}
+.shef-from {
+  color: rgb(55, 55, 55);
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.shef-Description {
+  color: rgb(55, 55, 55);
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.shefs-btn {
+  margin-top: 0px !important;
+}
+
+.shef-analatics {
+  height: 400px;
+  padding: 5rem 0px;
+}
+.shef-analatics-col h1 {
+  color: rgb(236, 32, 68);
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+}
+
+.shef-analatics-col p {
+  color: rgb(55, 55, 55);
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.shef-analatics-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.testimonials-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.testimonials-heading {
+  margin: 0px;
+  line-height: 210px;
+  color: rgb(56, 56, 56);
+  font-size: 40px;
+  font-weight: 700;
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  text-align: center;
+}
+
+.testimonials-col p {
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  width: 100%;
+  padding: 0px 42px;
+  font-weight: 300;
+  font-size: 200%;
+  line-height: 50px;
+  cursor: pointer;
+}
+.testimonials-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 594px;
+  background-origin: border-box;
+}
+.testimonials-col:hover {
+  border-top: 4px solid #da3a4a;
+  color: #da3a4a !important;
+  cursor: pointer;
+  overflow: hidden;
+}
+.none {
+  opacity: 0% !important;
+}
+.testimonials-profile {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+.testimonials-profile p {
+  color: rgb(51, 52, 53);
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 0 !important;
+  width: auto;
+  margin-left: 10px;
+}
+.testimonials-profile img {
+  border-radius: 50%;
+}
+.testimonials-col:hover .testimonials-profile {
+  background-color: #fec531 !important;
+}
+
+.meet-shefs-contant {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4rem;
+}
+
+.meet-shefs-col {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  align-items: center;
+}
+.meet-shef-details {
+  width: 350px;
+  height: 300px;
+  background-color: white;
+  position: absolute;
+  left: -0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.meet-shef-details p {
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-weight: 700;
+  color: rgb(56, 56, 56);
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+.meet-shef-details h2 {
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: rgb(236, 32, 68);
+  font-size: 40px;
+  line-height: 48px;
+}
+.meet-shef-details button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  line-height: 1.42857;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid rgb(236, 32, 68);
+  outline: none;
+  background-color: rgb(236, 32, 68);
+  color: white;
+  border-radius: 30px;
+  font-weight: 500;
+  width: 30%;
+}
+
+.food-safety-contant {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 4rem;
+}
+.food-safety-details {
+  background-color: white;
+  left: -0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 1rem;
+}
+.food-safety-details h2 {
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  margin-bottom: 3rem;
+  font-weight: 700;
+  color: rgb(236, 32, 68);
+  font-size: 40px;
+  line-height: 48px;
+}
+.food-safety-details p {
+  color: rgb(55, 55, 55);
+  font-family: sans-serif "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.food-safety-col {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+}
+
+/* *************************************************************************************************** */
+
+.readyOderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background-color: #acacac17;
+}
+.heading {
+  margin-top: 2rem;
+}
+.heading h2 {
+  font-weight: 700;
+  color: rgb(56, 56, 56);
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  text-align: center;
+}
+.heading p {
+  color: rgb(55, 55, 55);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.findFood {
+  padding: 2px;
+  width: 350px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 2rem;
+}
+.findFood input {
+  height: 35px;
+  width: 200px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.findFood button {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  font-size: 17px;
+  outline: none;
+  padding: 8px 15px;
+  background: rgb(218, 58, 74);
+  color: white;
+  border-radius: 22px;
+  border: none;
+}
+.getStarted {
+  width: 85% !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  margin: 0 auto;
+}
+.paraShef p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.spanP {
+  color: rgb(218, 58, 74);
+}
+.getBtn button {
+  padding: 9px 22px;
+  border-radius: 22px;
+  outline: none;
+  border: 1px solid black;
+  background-color: white;
+}
+
+/* **************************************MODAL***************************************** */
+
+.ant-form-item-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+.ant-input:focus,
+.ant-input-focused {
+  border-color: #da3a4a !important;
+  -webkit-box-shadow: unset !important;
+  box-shadow: unset !important;
+}
+
+.ant-input:hover {
+  border-color: #da3a4a !important;
+}
+.ant-btn-primary {
+  background-color: #da3a4a !important;
+  border-color: #da3a4a !important;
+  border-radius: 20px !important;
+  transition: all ease 1s;
+}
+.ant-btn-primary:hover {
+  border-radius: 10px !important;
+  transform: scale(1.1);
+}
